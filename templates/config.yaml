@@ -1,3 +1,6 @@
 base16:
   filename: themes/{{ scheme-system }}-{{ scheme-slug }}.yml
   supported-systems: [base16]
+base24:
+  filename: themes/{{ scheme-system }}-{{ scheme-slug }}.yml
+  supported-systems: [base24]
