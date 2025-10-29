@@ -158,6 +158,7 @@ file_type:
     foreground: "#883e9f"
   temp:
     foreground: "#2e2e05"
+    is_dimmed: false
   compiled:
     foreground: "#5b4a9f"
   build:
