@@ -1,0 +1,191 @@
+# vim: ft=yaml
+
+# Scheme Name: Chinoiserie Night
+# Scheme Author: Di Wang (https://cs.cmu.edu/~diw3)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal:
+    foreground: "#c4cbcf"
+  directory:
+    foreground: "#8fb2c9"
+  symlink:
+    foreground: "#b0d5df"
+  pipe:
+    foreground: "#bdaead"
+  block_device:
+    foreground: "#f4ce69"
+  char_device:
+    foreground: "#f4ce69"
+  socket:
+    foreground: "#bdaead"
+  special:
+    foreground: "#be9db9"
+  executable:
+    foreground: "#b2cf87"
+  mount_point:
+    foreground: "#8fb2c9"
+
+perms:
+  user_read:
+    foreground: "#c4cbcf"
+  user_write:
+    foreground: "#f4a83a"
+  user_execute_file:
+    foreground: "#b2cf87"
+  user_execute_other:
+    foreground: "#b2cf87"
+  group_read:
+    foreground: "#c4cbcf"
+  group_write:
+    foreground: "#f4a83a"
+  group_execute:
+    foreground: "#b2cf87"
+  other_read:
+    foreground: "#bdaead"
+  other_write:
+    foreground: "#f4a83a"
+  other_execute:
+    foreground: "#b2cf87"
+  special_user_file:
+    foreground: "#be9db9"
+  special_other:
+    foreground: "#bdaead"
+  attribute:
+    foreground: "#bdaead"
+
+size:
+  major:
+    foreground: "#b2cf87"
+  minor:
+    foreground: "#b2cf87"
+  number_byte:
+    foreground: "#bdaead"
+  number_kilo:
+    foreground: "#c4cbcf"
+  number_mega:
+    foreground: "#f4ce69"
+  number_giga:
+    foreground: "#f4a83a"
+  number_huge:
+    foreground: "#f07c82"
+  unit_byte:
+    foreground: "#bdaead"
+  unit_kilo:
+    foreground: "#c4cbcf"
+  unit_mega:
+    foreground: "#f4ce69"
+  unit_giga:
+    foreground: "#f4a83a"
+  unit_huge:
+    foreground: "#f07c82"
+
+users:
+  user_you:
+    foreground: "#c4cbcf"
+  user_root:
+    foreground: "#f07c82"
+  user_other:
+    foreground: "#be9db9"
+  group_yours:
+    foreground: "#c4cbcf"
+  group_other:
+    foreground: "#bdaead"
+  group_root:
+    foreground: "#f07c82"
+
+links:
+  normal:
+    foreground: "#b0d5df"
+  multi_link_file:
+    foreground: "#c4cbcf"
+    background: "#b0d5df"
+
+git:
+  new:
+    foreground: "#b2cf87"
+  modified:
+    foreground: "#f4ce69"
+  deleted:
+    foreground: "#f07c82"
+  renamed:
+    foreground: "#b2cf87"
+  typechange:
+    foreground: "#be9db9"
+  ignored:
+    foreground: "#bdaead"
+  conflicted:
+    foreground: "#f07c82"
+
+git_repo:
+  branch_main:
+    foreground: "#c4cbcf"
+  branch_other:
+    foreground: "#be9db9"
+  git_clean:
+    foreground: "#b2cf87"
+  git_dirty:
+    foreground: "#f07c82"
+
+security_context:
+  colon:
+    foreground: "#bdaead"
+  user:
+    foreground: "#c4cbcf"
+  role:
+    foreground: "#be9db9"
+  typ:
+    foreground: "#bdaead"
+  range:
+    foreground: "#be9db9"
+
+file_type:
+  image:
+    foreground: "#f4ce69"
+  video:
+    foreground: "#f07c82"
+  music:
+    foreground: "#b2cf87"
+  lossless:
+    foreground: "#b0d5df"
+  crypto:
+    foreground: "#bdaead"
+  document:
+    foreground: "#c4cbcf"
+  compressed:
+    foreground: "#be9db9"
+  temp:
+    foreground: "#f07c82"
+  compiled:
+    foreground: "#8fb2c9"
+  build:
+    foreground: "#bdaead"
+    is_underline: false
+  source:
+    foreground: "#8fb2c9"
+
+punctuation:
+    foreground: "#bdaead"
+date:
+    foreground: "#f4ce69"
+inode:
+    foreground: "#bdaead"
+blocks:
+    foreground: "#bdaead"
+header:
+    foreground: "#c4cbcf"
+octal:
+    foreground: "#b0d5df"
+flags:
+    foreground: "#be9db9"
+
+symlink_path:
+    foreground: "#b0d5df"
+control_char:
+    foreground: "#8fb2c9"
+broken_symlink:
+    foreground: "#f07c82"
+broken_path_overlay:
+    foreground: "#bdaead"

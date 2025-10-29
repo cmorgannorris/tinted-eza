@@ -1,0 +1,191 @@
+# vim: ft=yaml
+
+# Scheme Name: Embarcadero
+# Scheme Author: Thomas Leon Highbaugh
+# Scheme System: base24
+
+colourful: true
+
+filekinds:
+  normal:
+    foreground: "#bcbdc0"
+  directory:
+    foreground: "#4080d0"
+  symlink:
+    foreground: "#02efef"
+  pipe:
+    foreground: "#9ea0a2"
+  block_device:
+    foreground: "#eb824d"
+  char_device:
+    foreground: "#eb824d"
+  socket:
+    foreground: "#9ea0a2"
+  special:
+    foreground: "#a070d0"
+  executable:
+    foreground: "#20c290"
+  mount_point:
+    foreground: "#eb824d"
+
+perms:
+  user_read:
+    foreground: "#eb824d"
+  user_write:
+    foreground: "#ed5d86"
+  user_execute_file:
+    foreground: "#20c290"
+  user_execute_other:
+    foreground: "#20c290"
+  group_read:
+    foreground: "#eb824d"
+  group_write:
+    foreground: "#ed5d86"
+  group_execute:
+    foreground: "#20c290"
+  other_read:
+    foreground: "#eb824d"
+  other_write:
+    foreground: "#ed5d86"
+  other_execute:
+    foreground: "#20c290"
+  special_user_file:
+    foreground: "#a070d0"
+  special_other:
+    foreground: "#9ea0a2"
+  attribute:
+    foreground: "#9ea0a2"
+
+size:
+  major:
+    foreground: "#20c290"
+  minor:
+    foreground: "#20c290"
+  number_byte:
+    foreground: "#9ea0a2"
+  number_kilo:
+    foreground: "#bcbdc0"
+  number_mega:
+    foreground: "#eb824d"
+  number_giga:
+    foreground: "#ffcb3d"
+  number_huge:
+    foreground: "#ed5d86"
+  unit_byte:
+    foreground: "#9ea0a2"
+  unit_kilo:
+    foreground: "#bcbdc0"
+  unit_mega:
+    foreground: "#eb824d"
+  unit_giga:
+    foreground: "#ffcb3d"
+  unit_huge:
+    foreground: "#ed5d86"
+
+users:
+  user_you:
+    foreground: "#bcbdc0"
+  user_root:
+    foreground: "#ed5d86"
+  user_other:
+    foreground: "#a070d0"
+  group_yours:
+    foreground: "#bcbdc0"
+  group_other:
+    foreground: "#9ea0a2"
+  group_root:
+    foreground: "#ed5d86"
+
+links:
+  normal:
+    foreground: "#02efef"
+  multi_link_file:
+    foreground: "#bcbdc0"
+    background: "#02efef"
+
+git:
+  new:
+    foreground: "#20c290"
+  modified:
+    foreground: "#eb824d"
+  deleted:
+    foreground: "#ed5d86"
+  renamed:
+    foreground: "#7f8285"
+  typechange:
+    foreground: "#a070d0"
+  ignored:
+    foreground: "#9ea0a2"
+  conflicted:
+    foreground: "#ffcb3d"
+
+git_repo:
+  branch_main:
+    foreground: "#bcbdc0"
+  branch_other:
+    foreground: "#a070d0"
+  git_clean:
+    foreground: "#20c290"
+  git_dirty:
+    foreground: "#ed5d86"
+
+security_context:
+  colon:
+    foreground: "#9ea0a2"
+  user:
+    foreground: "#bcbdc0"
+  role:
+    foreground: "#a070d0"
+  typ:
+    foreground: "#9ea0a2"
+  range:
+    foreground: "#a070d0"
+
+file_type:
+  image:
+    foreground: "#eb824d"
+  video:
+    foreground: "#20c290"
+  music:
+    foreground: "#20c290"
+  lossless:
+    foreground: "#20c290"
+  crypto:
+    foreground: "#9ea0a2"
+  document:
+    foreground: "#bcbdc0"
+  compressed:
+    foreground: "#9ea0a2"
+  temp:
+    foreground: "#616568"
+  compiled:
+    foreground: "#4080d0"
+  build:
+    foreground: "#9ea0a2"
+    is_underline: false
+  source:
+    foreground: "#4080d0"
+
+punctuation:
+    foreground: "#9ea0a2"
+date:
+    foreground: "#9ea0a2"
+inode:
+    foreground: "#9ea0a2"
+blocks:
+    foreground: "#9ea0a2"
+header:
+    foreground: "#bcbdc0"
+octal:
+    foreground: "#7f8285"
+flags:
+    foreground: "#a070d0"
+
+symlink_path:
+    foreground: "#02efef"
+control_char:
+    foreground: "#ffcb3d"
+broken_symlink:
+    foreground: "#ed5d86"
+broken_path_overlay:
+    foreground: "#9ea0a2"

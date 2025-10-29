@@ -1,0 +1,191 @@
+# vim: ft=yaml
+
+# Scheme Name: Ayu Light
+# Scheme Author: Tinted Theming (https://github.com/tinted-theming), Ayu Theme (https://github.com/ayu-theme)
+# Scheme System: base24
+
+colourful: true
+
+filekinds:
+  normal:
+    foreground: "#5c6166"
+  directory:
+    foreground: "#399ee6"
+  symlink:
+    foreground: "#4cbf99"
+  pipe:
+    foreground: "#8a9199"
+  block_device:
+    foreground: "#f2ae49"
+  char_device:
+    foreground: "#f2ae49"
+  socket:
+    foreground: "#8a9199"
+  special:
+    foreground: "#a37acc"
+  executable:
+    foreground: "#6cbf49"
+  mount_point:
+    foreground: "#f2ae49"
+
+perms:
+  user_read:
+    foreground: "#f2ae49"
+  user_write:
+    foreground: "#f07171"
+  user_execute_file:
+    foreground: "#6cbf49"
+  user_execute_other:
+    foreground: "#6cbf49"
+  group_read:
+    foreground: "#f2ae49"
+  group_write:
+    foreground: "#f07171"
+  group_execute:
+    foreground: "#6cbf49"
+  other_read:
+    foreground: "#f2ae49"
+  other_write:
+    foreground: "#f07171"
+  other_execute:
+    foreground: "#6cbf49"
+  special_user_file:
+    foreground: "#a37acc"
+  special_other:
+    foreground: "#8a9199"
+  attribute:
+    foreground: "#8a9199"
+
+size:
+  major:
+    foreground: "#6cbf49"
+  minor:
+    foreground: "#6cbf49"
+  number_byte:
+    foreground: "#8a9199"
+  number_kilo:
+    foreground: "#5c6166"
+  number_mega:
+    foreground: "#f2ae49"
+  number_giga:
+    foreground: "#fa8d3e"
+  number_huge:
+    foreground: "#f07171"
+  unit_byte:
+    foreground: "#8a9199"
+  unit_kilo:
+    foreground: "#5c6166"
+  unit_mega:
+    foreground: "#f2ae49"
+  unit_giga:
+    foreground: "#fa8d3e"
+  unit_huge:
+    foreground: "#f07171"
+
+users:
+  user_you:
+    foreground: "#5c6166"
+  user_root:
+    foreground: "#f07171"
+  user_other:
+    foreground: "#a37acc"
+  group_yours:
+    foreground: "#5c6166"
+  group_other:
+    foreground: "#8a9199"
+  group_root:
+    foreground: "#f07171"
+
+links:
+  normal:
+    foreground: "#4cbf99"
+  multi_link_file:
+    foreground: "#5c6166"
+    background: "#4cbf99"
+
+git:
+  new:
+    foreground: "#6cbf49"
+  modified:
+    foreground: "#f2ae49"
+  deleted:
+    foreground: "#f07171"
+  renamed:
+    foreground: "#a0a6ac"
+  typechange:
+    foreground: "#a37acc"
+  ignored:
+    foreground: "#8a9199"
+  conflicted:
+    foreground: "#fa8d3e"
+
+git_repo:
+  branch_main:
+    foreground: "#5c6166"
+  branch_other:
+    foreground: "#a37acc"
+  git_clean:
+    foreground: "#6cbf49"
+  git_dirty:
+    foreground: "#f07171"
+
+security_context:
+  colon:
+    foreground: "#8a9199"
+  user:
+    foreground: "#5c6166"
+  role:
+    foreground: "#a37acc"
+  typ:
+    foreground: "#8a9199"
+  range:
+    foreground: "#a37acc"
+
+file_type:
+  image:
+    foreground: "#f2ae49"
+  video:
+    foreground: "#6cbf49"
+  music:
+    foreground: "#6cbf49"
+  lossless:
+    foreground: "#6cbf49"
+  crypto:
+    foreground: "#8a9199"
+  document:
+    foreground: "#5c6166"
+  compressed:
+    foreground: "#8a9199"
+  temp:
+    foreground: "#d2d4d8"
+  compiled:
+    foreground: "#399ee6"
+  build:
+    foreground: "#8a9199"
+    is_underline: false
+  source:
+    foreground: "#399ee6"
+
+punctuation:
+    foreground: "#8a9199"
+date:
+    foreground: "#8a9199"
+inode:
+    foreground: "#8a9199"
+blocks:
+    foreground: "#8a9199"
+header:
+    foreground: "#5c6166"
+octal:
+    foreground: "#a0a6ac"
+flags:
+    foreground: "#a37acc"
+
+symlink_path:
+    foreground: "#4cbf99"
+control_char:
+    foreground: "#fa8d3e"
+broken_symlink:
+    foreground: "#f07171"
+broken_path_overlay:
+    foreground: "#8a9199"

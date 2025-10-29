@@ -1,0 +1,191 @@
+# vim: ft=yaml
+
+# Scheme Name: Sparky
+# Scheme Author: Leila Sother (https://github.com/mixcoac)
+# Scheme System: base24
+
+colourful: true
+
+filekinds:
+  normal:
+    foreground: "#f4f5f0"
+  directory:
+    foreground: "#4698cb"
+  symlink:
+    foreground: "#2dccd3"
+  pipe:
+    foreground: "#00778b"
+  block_device:
+    foreground: "#fbdd40"
+  char_device:
+    foreground: "#fbdd40"
+  socket:
+    foreground: "#00778b"
+  special:
+    foreground: "#d59ed7"
+  executable:
+    foreground: "#78d64b"
+  mount_point:
+    foreground: "#fbdd40"
+
+perms:
+  user_read:
+    foreground: "#fbdd40"
+  user_write:
+    foreground: "#ff585d"
+  user_execute_file:
+    foreground: "#78d64b"
+  user_execute_other:
+    foreground: "#78d64b"
+  group_read:
+    foreground: "#fbdd40"
+  group_write:
+    foreground: "#ff585d"
+  group_execute:
+    foreground: "#78d64b"
+  other_read:
+    foreground: "#fbdd40"
+  other_write:
+    foreground: "#ff585d"
+  other_execute:
+    foreground: "#78d64b"
+  special_user_file:
+    foreground: "#d59ed7"
+  special_other:
+    foreground: "#00778b"
+  attribute:
+    foreground: "#00778b"
+
+size:
+  major:
+    foreground: "#78d64b"
+  minor:
+    foreground: "#78d64b"
+  number_byte:
+    foreground: "#00778b"
+  number_kilo:
+    foreground: "#f4f5f0"
+  number_mega:
+    foreground: "#fbdd40"
+  number_giga:
+    foreground: "#ff8f1c"
+  number_huge:
+    foreground: "#ff585d"
+  unit_byte:
+    foreground: "#00778b"
+  unit_kilo:
+    foreground: "#f4f5f0"
+  unit_mega:
+    foreground: "#fbdd40"
+  unit_giga:
+    foreground: "#ff8f1c"
+  unit_huge:
+    foreground: "#ff585d"
+
+users:
+  user_you:
+    foreground: "#f4f5f0"
+  user_root:
+    foreground: "#ff585d"
+  user_other:
+    foreground: "#d59ed7"
+  group_yours:
+    foreground: "#f4f5f0"
+  group_other:
+    foreground: "#00778b"
+  group_root:
+    foreground: "#ff585d"
+
+links:
+  normal:
+    foreground: "#2dccd3"
+  multi_link_file:
+    foreground: "#f4f5f0"
+    background: "#2dccd3"
+
+git:
+  new:
+    foreground: "#78d64b"
+  modified:
+    foreground: "#fbdd40"
+  deleted:
+    foreground: "#ff585d"
+  renamed:
+    foreground: "#003b49"
+  typechange:
+    foreground: "#d59ed7"
+  ignored:
+    foreground: "#00778b"
+  conflicted:
+    foreground: "#ff8f1c"
+
+git_repo:
+  branch_main:
+    foreground: "#f4f5f0"
+  branch_other:
+    foreground: "#d59ed7"
+  git_clean:
+    foreground: "#78d64b"
+  git_dirty:
+    foreground: "#ff585d"
+
+security_context:
+  colon:
+    foreground: "#00778b"
+  user:
+    foreground: "#f4f5f0"
+  role:
+    foreground: "#d59ed7"
+  typ:
+    foreground: "#00778b"
+  range:
+    foreground: "#d59ed7"
+
+file_type:
+  image:
+    foreground: "#fbdd40"
+  video:
+    foreground: "#78d64b"
+  music:
+    foreground: "#78d64b"
+  lossless:
+    foreground: "#78d64b"
+  crypto:
+    foreground: "#00778b"
+  document:
+    foreground: "#f4f5f0"
+  compressed:
+    foreground: "#00778b"
+  temp:
+    foreground: "#003c46"
+  compiled:
+    foreground: "#4698cb"
+  build:
+    foreground: "#00778b"
+    is_underline: false
+  source:
+    foreground: "#4698cb"
+
+punctuation:
+    foreground: "#00778b"
+date:
+    foreground: "#00778b"
+inode:
+    foreground: "#00778b"
+blocks:
+    foreground: "#00778b"
+header:
+    foreground: "#f4f5f0"
+octal:
+    foreground: "#003b49"
+flags:
+    foreground: "#d59ed7"
+
+symlink_path:
+    foreground: "#2dccd3"
+control_char:
+    foreground: "#ff8f1c"
+broken_symlink:
+    foreground: "#ff585d"
+broken_path_overlay:
+    foreground: "#00778b"

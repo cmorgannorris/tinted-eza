@@ -1,0 +1,191 @@
+# vim: ft=yaml
+
+# Scheme Name: Charcoal Light
+# Scheme Author: Mubin Muhammad (https://github.com/mubin6th)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal:
+    foreground: "#35291d"
+  directory:
+    foreground: "#120f09"
+  symlink:
+    foreground: "#413325"
+  pipe:
+    foreground: "#1e1812"
+  block_device:
+    foreground: "#292016"
+  char_device:
+    foreground: "#292016"
+  socket:
+    foreground: "#1e1812"
+  special:
+    foreground: "#292016"
+  executable:
+    foreground: "#120f09"
+  mount_point:
+    foreground: "#120f09"
+
+perms:
+  user_read:
+    foreground: "#35291d"
+  user_write:
+    foreground: "#120f09"
+  user_execute_file:
+    foreground: "#120f09"
+  user_execute_other:
+    foreground: "#120f09"
+  group_read:
+    foreground: "#35291d"
+  group_write:
+    foreground: "#120f09"
+  group_execute:
+    foreground: "#120f09"
+  other_read:
+    foreground: "#1e1812"
+  other_write:
+    foreground: "#120f09"
+  other_execute:
+    foreground: "#120f09"
+  special_user_file:
+    foreground: "#292016"
+  special_other:
+    foreground: "#1e1812"
+  attribute:
+    foreground: "#1e1812"
+
+size:
+  major:
+    foreground: "#120f09"
+  minor:
+    foreground: "#120f09"
+  number_byte:
+    foreground: "#1e1812"
+  number_kilo:
+    foreground: "#35291d"
+  number_mega:
+    foreground: "#292016"
+  number_giga:
+    foreground: "#120f09"
+  number_huge:
+    foreground: "#413325"
+  unit_byte:
+    foreground: "#1e1812"
+  unit_kilo:
+    foreground: "#35291d"
+  unit_mega:
+    foreground: "#292016"
+  unit_giga:
+    foreground: "#120f09"
+  unit_huge:
+    foreground: "#413325"
+
+users:
+  user_you:
+    foreground: "#35291d"
+  user_root:
+    foreground: "#413325"
+  user_other:
+    foreground: "#292016"
+  group_yours:
+    foreground: "#35291d"
+  group_other:
+    foreground: "#1e1812"
+  group_root:
+    foreground: "#413325"
+
+links:
+  normal:
+    foreground: "#413325"
+  multi_link_file:
+    foreground: "#35291d"
+    background: "#413325"
+
+git:
+  new:
+    foreground: "#120f09"
+  modified:
+    foreground: "#292016"
+  deleted:
+    foreground: "#413325"
+  renamed:
+    foreground: "#120f09"
+  typechange:
+    foreground: "#292016"
+  ignored:
+    foreground: "#1e1812"
+  conflicted:
+    foreground: "#413325"
+
+git_repo:
+  branch_main:
+    foreground: "#35291d"
+  branch_other:
+    foreground: "#292016"
+  git_clean:
+    foreground: "#120f09"
+  git_dirty:
+    foreground: "#413325"
+
+security_context:
+  colon:
+    foreground: "#1e1812"
+  user:
+    foreground: "#35291d"
+  role:
+    foreground: "#292016"
+  typ:
+    foreground: "#1e1812"
+  range:
+    foreground: "#292016"
+
+file_type:
+  image:
+    foreground: "#292016"
+  video:
+    foreground: "#413325"
+  music:
+    foreground: "#120f09"
+  lossless:
+    foreground: "#413325"
+  crypto:
+    foreground: "#1e1812"
+  document:
+    foreground: "#35291d"
+  compressed:
+    foreground: "#292016"
+  temp:
+    foreground: "#413325"
+  compiled:
+    foreground: "#120f09"
+  build:
+    foreground: "#1e1812"
+    is_underline: false
+  source:
+    foreground: "#120f09"
+
+punctuation:
+    foreground: "#1e1812"
+date:
+    foreground: "#292016"
+inode:
+    foreground: "#1e1812"
+blocks:
+    foreground: "#1e1812"
+header:
+    foreground: "#35291d"
+octal:
+    foreground: "#413325"
+flags:
+    foreground: "#292016"
+
+symlink_path:
+    foreground: "#413325"
+control_char:
+    foreground: "#120f09"
+broken_symlink:
+    foreground: "#413325"
+broken_path_overlay:
+    foreground: "#1e1812"

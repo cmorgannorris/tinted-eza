@@ -1,0 +1,191 @@
+# vim: ft=yaml
+
+# Scheme Name: Arthur
+# Scheme Author: FredHappyface (https://github.com/fredHappyface)
+# Scheme System: base24
+
+colourful: true
+
+filekinds:
+  normal:
+    foreground: "#a19083"
+  directory:
+    foreground: "#6495ed"
+  symlink:
+    foreground: "#b0c4de"
+  pipe:
+    foreground: "#88776e"
+  block_device:
+    foreground: "#87ceeb"
+  char_device:
+    foreground: "#87ceeb"
+  socket:
+    foreground: "#88776e"
+  special:
+    foreground: "#deb887"
+  executable:
+    foreground: "#86af80"
+  mount_point:
+    foreground: "#87ceeb"
+
+perms:
+  user_read:
+    foreground: "#87ceeb"
+  user_write:
+    foreground: "#cd5c5c"
+  user_execute_file:
+    foreground: "#86af80"
+  user_execute_other:
+    foreground: "#86af80"
+  group_read:
+    foreground: "#87ceeb"
+  group_write:
+    foreground: "#cd5c5c"
+  group_execute:
+    foreground: "#86af80"
+  other_read:
+    foreground: "#87ceeb"
+  other_write:
+    foreground: "#cd5c5c"
+  other_execute:
+    foreground: "#86af80"
+  special_user_file:
+    foreground: "#deb887"
+  special_other:
+    foreground: "#88776e"
+  attribute:
+    foreground: "#88776e"
+
+size:
+  major:
+    foreground: "#86af80"
+  minor:
+    foreground: "#86af80"
+  number_byte:
+    foreground: "#88776e"
+  number_kilo:
+    foreground: "#a19083"
+  number_mega:
+    foreground: "#87ceeb"
+  number_giga:
+    foreground: "#e8ae5b"
+  number_huge:
+    foreground: "#cd5c5c"
+  unit_byte:
+    foreground: "#88776e"
+  unit_kilo:
+    foreground: "#a19083"
+  unit_mega:
+    foreground: "#87ceeb"
+  unit_giga:
+    foreground: "#e8ae5b"
+  unit_huge:
+    foreground: "#cd5c5c"
+
+users:
+  user_you:
+    foreground: "#a19083"
+  user_root:
+    foreground: "#cd5c5c"
+  user_other:
+    foreground: "#deb887"
+  group_yours:
+    foreground: "#a19083"
+  group_other:
+    foreground: "#88776e"
+  group_root:
+    foreground: "#cd5c5c"
+
+links:
+  normal:
+    foreground: "#b0c4de"
+  multi_link_file:
+    foreground: "#a19083"
+    background: "#b0c4de"
+
+git:
+  new:
+    foreground: "#86af80"
+  modified:
+    foreground: "#87ceeb"
+  deleted:
+    foreground: "#cd5c5c"
+  renamed:
+    foreground: "#6e5d59"
+  typechange:
+    foreground: "#deb887"
+  ignored:
+    foreground: "#88776e"
+  conflicted:
+    foreground: "#e8ae5b"
+
+git_repo:
+  branch_main:
+    foreground: "#a19083"
+  branch_other:
+    foreground: "#deb887"
+  git_clean:
+    foreground: "#86af80"
+  git_dirty:
+    foreground: "#cd5c5c"
+
+security_context:
+  colon:
+    foreground: "#88776e"
+  user:
+    foreground: "#a19083"
+  role:
+    foreground: "#deb887"
+  typ:
+    foreground: "#88776e"
+  range:
+    foreground: "#deb887"
+
+file_type:
+  image:
+    foreground: "#87ceeb"
+  video:
+    foreground: "#86af80"
+  music:
+    foreground: "#86af80"
+  lossless:
+    foreground: "#86af80"
+  crypto:
+    foreground: "#88776e"
+  document:
+    foreground: "#a19083"
+  compressed:
+    foreground: "#88776e"
+  temp:
+    foreground: "#554444"
+  compiled:
+    foreground: "#6495ed"
+  build:
+    foreground: "#88776e"
+    is_underline: false
+  source:
+    foreground: "#6495ed"
+
+punctuation:
+    foreground: "#88776e"
+date:
+    foreground: "#88776e"
+inode:
+    foreground: "#88776e"
+blocks:
+    foreground: "#88776e"
+header:
+    foreground: "#a19083"
+octal:
+    foreground: "#6e5d59"
+flags:
+    foreground: "#deb887"
+
+symlink_path:
+    foreground: "#b0c4de"
+control_char:
+    foreground: "#e8ae5b"
+broken_symlink:
+    foreground: "#cd5c5c"
+broken_path_overlay:
+    foreground: "#88776e"
