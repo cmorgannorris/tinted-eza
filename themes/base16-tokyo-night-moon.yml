@@ -26,27 +26,27 @@ filekinds:
   executable:
     foreground: "#c3e88d"
   mount_point:
-    foreground: "#82aaff"
+    foreground: "#ffc777"
 
 perms:
   user_read:
-    foreground: "#3b4261"
-  user_write:
     foreground: "#ffc777"
+  user_write:
+    foreground: "#ff757f"
   user_execute_file:
     foreground: "#c3e88d"
   user_execute_other:
     foreground: "#c3e88d"
   group_read:
-    foreground: "#3b4261"
-  group_write:
     foreground: "#ffc777"
+  group_write:
+    foreground: "#ff757f"
   group_execute:
     foreground: "#c3e88d"
   other_read:
-    foreground: "#828bb8"
-  other_write:
     foreground: "#ffc777"
+  other_write:
+    foreground: "#ff757f"
   other_execute:
     foreground: "#c3e88d"
   special_user_file:
@@ -111,13 +111,13 @@ git:
   deleted:
     foreground: "#ff757f"
   renamed:
-    foreground: "#c3e88d"
+    foreground: "#636da6"
   typechange:
     foreground: "#fca7ea"
   ignored:
     foreground: "#828bb8"
   conflicted:
-    foreground: "#ff757f"
+    foreground: "#ffc777"
 
 git_repo:
   branch_main:
@@ -145,11 +145,11 @@ file_type:
   image:
     foreground: "#ffc777"
   video:
-    foreground: "#ff757f"
+    foreground: "#c3e88d"
   music:
     foreground: "#c3e88d"
   lossless:
-    foreground: "#86e1fc"
+    foreground: "#3b4261"
   crypto:
     foreground: "#828bb8"
   document:
@@ -157,7 +157,7 @@ file_type:
   compressed:
     foreground: "#fca7ea"
   temp:
-    foreground: "#ff757f"
+    foreground: "#636da6"
   compiled:
     foreground: "#82aaff"
   build:
@@ -169,7 +169,7 @@ file_type:
 punctuation:
     foreground: "#828bb8"
 date:
-    foreground: "#ffc777"
+    foreground: "#828bb8"
 inode:
     foreground: "#828bb8"
 blocks:
@@ -177,14 +177,14 @@ blocks:
 header:
     foreground: "#3b4261"
 octal:
-    foreground: "#86e1fc"
+    foreground: "#636da6"
 flags:
     foreground: "#fca7ea"
 
 symlink_path:
     foreground: "#86e1fc"
 control_char:
-    foreground: "#82aaff"
+    foreground: "#ffc777"
 broken_symlink:
     foreground: "#ff757f"
 broken_path_overlay:

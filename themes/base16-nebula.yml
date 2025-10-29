@@ -26,27 +26,27 @@ filekinds:
   executable:
     foreground: "#6562a8"
   mount_point:
-    foreground: "#4d6bb6"
+    foreground: "#4f9062"
 
 perms:
   user_read:
-    foreground: "#a4a6a9"
+    foreground: "#4f9062"
   user_write:
-    foreground: "#94929e"
+    foreground: "#777abc"
   user_execute_file:
     foreground: "#6562a8"
   user_execute_other:
     foreground: "#6562a8"
   group_read:
-    foreground: "#a4a6a9"
+    foreground: "#4f9062"
   group_write:
-    foreground: "#94929e"
+    foreground: "#777abc"
   group_execute:
     foreground: "#6562a8"
   other_read:
-    foreground: "#87888b"
+    foreground: "#4f9062"
   other_write:
-    foreground: "#94929e"
+    foreground: "#777abc"
   other_execute:
     foreground: "#6562a8"
   special_user_file:
@@ -111,13 +111,13 @@ git:
   deleted:
     foreground: "#777abc"
   renamed:
-    foreground: "#6562a8"
+    foreground: "#6e6f72"
   typechange:
     foreground: "#716cae"
   ignored:
     foreground: "#87888b"
   conflicted:
-    foreground: "#777abc"
+    foreground: "#94929e"
 
 git_repo:
   branch_main:
@@ -145,11 +145,11 @@ file_type:
   image:
     foreground: "#4f9062"
   video:
-    foreground: "#777abc"
+    foreground: "#6562a8"
   music:
     foreground: "#6562a8"
   lossless:
-    foreground: "#226f68"
+    foreground: "#a4a6a9"
   crypto:
     foreground: "#87888b"
   document:
@@ -157,7 +157,7 @@ file_type:
   compressed:
     foreground: "#716cae"
   temp:
-    foreground: "#777abc"
+    foreground: "#6e6f72"
   compiled:
     foreground: "#4d6bb6"
   build:
@@ -169,7 +169,7 @@ file_type:
 punctuation:
     foreground: "#87888b"
 date:
-    foreground: "#4f9062"
+    foreground: "#87888b"
 inode:
     foreground: "#87888b"
 blocks:
@@ -177,14 +177,14 @@ blocks:
 header:
     foreground: "#a4a6a9"
 octal:
-    foreground: "#226f68"
+    foreground: "#6e6f72"
 flags:
     foreground: "#716cae"
 
 symlink_path:
     foreground: "#226f68"
 control_char:
-    foreground: "#4d6bb6"
+    foreground: "#94929e"
 broken_symlink:
     foreground: "#777abc"
 broken_path_overlay:

@@ -26,13 +26,13 @@ filekinds:
   executable:
     foreground: "#927a60"
   mount_point:
-    foreground: "#d6b891"
+    foreground: "#c0a179"
 
 perms:
   user_read:
     foreground: "#c0a179"
   user_write:
-    foreground: "#d6b891"
+    foreground: "#887254"
   user_execute_file:
     foreground: "#927a60"
   user_execute_other:
@@ -40,13 +40,13 @@ perms:
   group_read:
     foreground: "#c0a179"
   group_write:
-    foreground: "#d6b891"
+    foreground: "#887254"
   group_execute:
     foreground: "#927a60"
   other_read:
-    foreground: "#a28662"
+    foreground: "#c0a179"
   other_write:
-    foreground: "#d6b891"
+    foreground: "#887254"
   other_execute:
     foreground: "#927a60"
   special_user_file:
@@ -111,13 +111,13 @@ git:
   deleted:
     foreground: "#887254"
   renamed:
-    foreground: "#927a60"
+    foreground: "#66553f"
   typechange:
     foreground: "#a28662"
   ignored:
     foreground: "#a28662"
   conflicted:
-    foreground: "#887254"
+    foreground: "#d6b891"
 
 git_repo:
   branch_main:
@@ -145,11 +145,11 @@ file_type:
   image:
     foreground: "#c0a179"
   video:
-    foreground: "#887254"
+    foreground: "#927a60"
   music:
     foreground: "#927a60"
   lossless:
-    foreground: "#a28662"
+    foreground: "#c0a179"
   crypto:
     foreground: "#a28662"
   document:
@@ -157,7 +157,7 @@ file_type:
   compressed:
     foreground: "#a28662"
   temp:
-    foreground: "#887254"
+    foreground: "#66553f"
   compiled:
     foreground: "#d6b891"
   build:
@@ -169,7 +169,7 @@ file_type:
 punctuation:
     foreground: "#a28662"
 date:
-    foreground: "#c0a179"
+    foreground: "#a28662"
 inode:
     foreground: "#a28662"
 blocks:
@@ -177,7 +177,7 @@ blocks:
 header:
     foreground: "#c0a179"
 octal:
-    foreground: "#a28662"
+    foreground: "#66553f"
 flags:
     foreground: "#a28662"
 

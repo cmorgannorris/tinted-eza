@@ -26,27 +26,27 @@ filekinds:
   executable:
     foreground: "#78d64b"
   mount_point:
-    foreground: "#4698cb"
+    foreground: "#fbdd40"
 
 perms:
   user_read:
-    foreground: "#f4f5f0"
+    foreground: "#fbdd40"
   user_write:
-    foreground: "#ff8f1c"
+    foreground: "#ff585d"
   user_execute_file:
     foreground: "#78d64b"
   user_execute_other:
     foreground: "#78d64b"
   group_read:
-    foreground: "#f4f5f0"
+    foreground: "#fbdd40"
   group_write:
-    foreground: "#ff8f1c"
+    foreground: "#ff585d"
   group_execute:
     foreground: "#78d64b"
   other_read:
-    foreground: "#00778b"
+    foreground: "#fbdd40"
   other_write:
-    foreground: "#ff8f1c"
+    foreground: "#ff585d"
   other_execute:
     foreground: "#78d64b"
   special_user_file:
@@ -111,13 +111,13 @@ git:
   deleted:
     foreground: "#ff585d"
   renamed:
-    foreground: "#78d64b"
+    foreground: "#003b49"
   typechange:
     foreground: "#d59ed7"
   ignored:
     foreground: "#00778b"
   conflicted:
-    foreground: "#ff585d"
+    foreground: "#ff8f1c"
 
 git_repo:
   branch_main:
@@ -145,11 +145,11 @@ file_type:
   image:
     foreground: "#fbdd40"
   video:
-    foreground: "#ff585d"
+    foreground: "#78d64b"
   music:
     foreground: "#78d64b"
   lossless:
-    foreground: "#2dccd3"
+    foreground: "#f4f5f0"
   crypto:
     foreground: "#00778b"
   document:
@@ -157,7 +157,7 @@ file_type:
   compressed:
     foreground: "#d59ed7"
   temp:
-    foreground: "#ff585d"
+    foreground: "#003b49"
   compiled:
     foreground: "#4698cb"
   build:
@@ -169,7 +169,7 @@ file_type:
 punctuation:
     foreground: "#00778b"
 date:
-    foreground: "#fbdd40"
+    foreground: "#00778b"
 inode:
     foreground: "#00778b"
 blocks:
@@ -177,14 +177,14 @@ blocks:
 header:
     foreground: "#f4f5f0"
 octal:
-    foreground: "#2dccd3"
+    foreground: "#003b49"
 flags:
     foreground: "#d59ed7"
 
 symlink_path:
     foreground: "#2dccd3"
 control_char:
-    foreground: "#4698cb"
+    foreground: "#ff8f1c"
 broken_symlink:
     foreground: "#ff585d"
 broken_path_overlay:

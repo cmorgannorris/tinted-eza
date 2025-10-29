@@ -149,15 +149,15 @@ file_type:
   music:
     foreground: "#8cc265"
   lossless:
-    foreground: "#8cc265"
+    foreground: "#abb2bf"
   crypto:
     foreground: "#9196a1"
   document:
     foreground: "#abb2bf"
   compressed:
-    foreground: "#9196a1"
+    foreground: "#c162de"
   temp:
-    foreground: "#4f5666"
+    foreground: "#545862"
   compiled:
     foreground: "#4aa5f0"
   build:

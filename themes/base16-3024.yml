@@ -26,27 +26,27 @@ filekinds:
   executable:
     foreground: "#01a252"
   mount_point:
-    foreground: "#01a0e4"
+    foreground: "#fded02"
 
 perms:
   user_read:
-    foreground: "#a5a2a2"
+    foreground: "#fded02"
   user_write:
-    foreground: "#e8bbd0"
+    foreground: "#db2d20"
   user_execute_file:
     foreground: "#01a252"
   user_execute_other:
     foreground: "#01a252"
   group_read:
-    foreground: "#a5a2a2"
+    foreground: "#fded02"
   group_write:
-    foreground: "#e8bbd0"
+    foreground: "#db2d20"
   group_execute:
     foreground: "#01a252"
   other_read:
-    foreground: "#807d7c"
+    foreground: "#fded02"
   other_write:
-    foreground: "#e8bbd0"
+    foreground: "#db2d20"
   other_execute:
     foreground: "#01a252"
   special_user_file:
@@ -111,13 +111,13 @@ git:
   deleted:
     foreground: "#db2d20"
   renamed:
-    foreground: "#01a252"
+    foreground: "#5c5855"
   typechange:
     foreground: "#a16a94"
   ignored:
     foreground: "#807d7c"
   conflicted:
-    foreground: "#db2d20"
+    foreground: "#e8bbd0"
 
 git_repo:
   branch_main:
@@ -145,11 +145,11 @@ file_type:
   image:
     foreground: "#fded02"
   video:
-    foreground: "#db2d20"
+    foreground: "#01a252"
   music:
     foreground: "#01a252"
   lossless:
-    foreground: "#b5e4f4"
+    foreground: "#a5a2a2"
   crypto:
     foreground: "#807d7c"
   document:
@@ -157,7 +157,7 @@ file_type:
   compressed:
     foreground: "#a16a94"
   temp:
-    foreground: "#db2d20"
+    foreground: "#5c5855"
   compiled:
     foreground: "#01a0e4"
   build:
@@ -169,7 +169,7 @@ file_type:
 punctuation:
     foreground: "#807d7c"
 date:
-    foreground: "#fded02"
+    foreground: "#807d7c"
 inode:
     foreground: "#807d7c"
 blocks:
@@ -177,14 +177,14 @@ blocks:
 header:
     foreground: "#a5a2a2"
 octal:
-    foreground: "#b5e4f4"
+    foreground: "#5c5855"
 flags:
     foreground: "#a16a94"
 
 symlink_path:
     foreground: "#b5e4f4"
 control_char:
-    foreground: "#01a0e4"
+    foreground: "#e8bbd0"
 broken_symlink:
     foreground: "#db2d20"
 broken_path_overlay:

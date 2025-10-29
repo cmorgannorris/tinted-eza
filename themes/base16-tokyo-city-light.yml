@@ -26,27 +26,27 @@ filekinds:
   executable:
     foreground: "#485e30"
   mount_point:
-    foreground: "#34548a"
+    foreground: "#4c505e"
 
 perms:
   user_read:
-    foreground: "#343b59"
+    foreground: "#4c505e"
   user_write:
-    foreground: "#965027"
+    foreground: "#8c4351"
   user_execute_file:
     foreground: "#485e30"
   user_execute_other:
     foreground: "#485e30"
   group_read:
-    foreground: "#343b59"
+    foreground: "#4c505e"
   group_write:
-    foreground: "#965027"
+    foreground: "#8c4351"
   group_execute:
     foreground: "#485e30"
   other_read:
     foreground: "#4c505e"
   other_write:
-    foreground: "#965027"
+    foreground: "#8c4351"
   other_execute:
     foreground: "#485e30"
   special_user_file:
@@ -111,13 +111,13 @@ git:
   deleted:
     foreground: "#8c4351"
   renamed:
-    foreground: "#485e30"
+    foreground: "#9699a3"
   typechange:
     foreground: "#5a4a78"
   ignored:
     foreground: "#4c505e"
   conflicted:
-    foreground: "#8c4351"
+    foreground: "#965027"
 
 git_repo:
   branch_main:
@@ -145,11 +145,11 @@ file_type:
   image:
     foreground: "#4c505e"
   video:
-    foreground: "#8c4351"
+    foreground: "#485e30"
   music:
     foreground: "#485e30"
   lossless:
-    foreground: "#4c505e"
+    foreground: "#343b59"
   crypto:
     foreground: "#4c505e"
   document:
@@ -157,7 +157,7 @@ file_type:
   compressed:
     foreground: "#5a4a78"
   temp:
-    foreground: "#8c4351"
+    foreground: "#9699a3"
   compiled:
     foreground: "#34548a"
   build:
@@ -177,14 +177,14 @@ blocks:
 header:
     foreground: "#343b59"
 octal:
-    foreground: "#4c505e"
+    foreground: "#9699a3"
 flags:
     foreground: "#5a4a78"
 
 symlink_path:
     foreground: "#4c505e"
 control_char:
-    foreground: "#34548a"
+    foreground: "#965027"
 broken_symlink:
     foreground: "#8c4351"
 broken_path_overlay:
